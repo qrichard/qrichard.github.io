@@ -24,6 +24,23 @@ h1{
     line-height: 50px;
     font-weight: bold;
 }
+h1 sub{
+    color:#aaa;
+    vertical-align: baseline;
+}
+h1 sub:before{
+    content: "(";
+}
+h1 sub:after{
+    content:")";
+}
 img{
     border-radius: 50%;
+}
+.hero{
+    outline:1px solid red;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
