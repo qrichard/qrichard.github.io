@@ -20,7 +20,7 @@ body{
     text-align: center;
 }
 h1{
-    font-size: 36 px;
+    font-size: 36px;
     line-height: 50px;
     font-weight: bold;
 }
@@ -35,7 +35,7 @@ h1 sub:after{
     content:")";
 }
 img{
-    border-radius: 50%;
+    border-radius:50%;
 }
 .hero{
     outline:1px solid red;
@@ -43,4 +43,22 @@ img{
     display:flex;
     flex-direction: column;
     justify-content: center;
+}
+hero img{
+    width: 100%;
+    height: 100%;
+}
+
+.godzilla{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    transition:transform 1s;
+}
+
+.godzilla:hover{
+    transform:rotate(360deg);
+    box-shadow:0px 0px 100px 50px #fc0;
 }
